@@ -1,0 +1,59 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --secondary-text-color: #000000;
+  --white-color: #ffffff;
+  --accent-color: #18a0fb;
+  --secondary-background-color: #f5f5f5;
+}
+.page {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* LOGO  */
+.logo {
+  color: var(--secondary-text-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+/* SECTION */
+.section-title {
+  color: var(--secondary-text-color);
+}
+
+/* SITE NAVIGATION */
+
+.site-nav-link {
+  color: var(--accent-color);
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--secondary-text-color);
+}
+
+/* HERO */
+.hero {
+  color: var(--secondary-text-color);
+}
+
+/* FEATURES */
+.features-pre-title {
+  color: var(--secondary-text-color);
+}
+.features-item-link {
+  color: var(--accent-color);
+}
+
+/* OUR WORK */
+
+.work-pre-title {
+  color: var(--secondary-text-color);
+}
