@@ -48,12 +48,25 @@
 .features-pre-title {
   color: var(--secondary-text-color);
 }
-.features-item-link {
-  color: var(--accent-color);
-}
 
 /* OUR WORK */
 
 .work-pre-title {
   color: var(--secondary-text-color);
+}
+
+/* BUTTON */
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--white-color);
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.button.secondary {
+  background-color: var(--white-color);
+  color: var(--accent-color);
 }
